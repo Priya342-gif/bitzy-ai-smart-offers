@@ -9,8 +9,7 @@ import CustomerStore from './pages/CustomerStore'
 import MerchantPortal from './pages/MerchantPortal'
 import AdminDashboard from './pages/AdminDashboard'
 import './App.css'
-
-const API_BASE = 'http://localhost:8000'
+import { API_BASE } from './config'
 
 function MainLayout() {
   const navigate = useNavigate()

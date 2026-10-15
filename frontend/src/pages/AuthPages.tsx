@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { Flame, Eye, EyeOff, Loader2, ArrowLeft, CheckCircle2, AlertCircle, ShoppingBag, Utensils } from 'lucide-react'
-
-const API_BASE = 'http://localhost:8000'
+import { API_BASE } from '../config'
 
 interface AuthPageProps {
   role: 'customer' | 'merchant'

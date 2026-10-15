@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 import { X, User, ShoppingBag, CheckCircle2, AlertCircle, LogOut, Clock } from 'lucide-react'
 import axios from 'axios'
-
-const API_BASE = 'http://localhost:8000'
+import { API_BASE } from '../config'
 
 interface CustomerProfileDrawerProps {
   user: any

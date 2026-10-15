@@ -7,8 +7,7 @@ import {
 } from 'lucide-react'
 import BitezyMap from '../components/BitezyMap'
 import AIChatbot from '../components/AIChatbot'
-
-const API_BASE = 'http://localhost:8000'
+import { API_BASE } from '../config'
 
 const CATEGORIES = [
   { key: 'all',         label: 'All',           emoji: '🍽️' },
